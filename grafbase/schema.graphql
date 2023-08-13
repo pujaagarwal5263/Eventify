@@ -25,6 +25,7 @@ type Event @model {
   eventDate: DateTime
   theme: String
   eventUrl: URL
+  venue: String!
   host: User
 }
 
