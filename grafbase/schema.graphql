@@ -24,6 +24,7 @@ type Event @model {
   publishedAt: DateTime
   eventDate: DateTime
   theme: String
+  eventUrl: URL
   host: User
 }
 
