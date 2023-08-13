@@ -23,7 +23,7 @@ type Event @model {
   description: String!
   publishedAt: DateTime
   eventDate: DateTime
-  theme: [String] @length(max: 5)
+  theme: String
   host: User
 }
 
