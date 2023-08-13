@@ -14,7 +14,7 @@
 type User @model {
   name: String!
   profileUrl: URL! @unique
-  email: Email!
+  email: Email! @unique
   events: [Event]
 }
 
